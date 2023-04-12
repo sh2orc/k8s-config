@@ -1,0 +1,7 @@
+kind: ResourceQuota
+name: ns-quota
+namespace: eks-example
+spec:
+  hard:
+    requests.memory: 1Gi
+    limits.memory: 1Gi
